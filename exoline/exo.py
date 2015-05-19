@@ -159,7 +159,8 @@ Command options:
     exo [options] create <cik> (--type=client|clone|dataport|datarule|dispatch) -
     exo [options] create <cik> --type=client
     exo [options] create <cik> --type=dataport (--format=float|integer|string)
-
+    exo [options] create <cik> --type=dataport --format=string --name='my_int' --alias='my_al'
+    
 Command options:
     --name=<name     set a resource name (overwriting the one in stdin if present)
     --alias=<alias>  set an alias
